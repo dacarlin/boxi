@@ -1,0 +1,13 @@
+CST::BEGIN
+  TEMPLATE:: ATOM_MAP: 1 residue3: RBO 
+  TEMPLATE:: ATOM_MAP: 1 atom_name: C1 C2 O1
+  TEMPLATE:: ATOM_MAP: 2 residue3: NAX 
+  TEMPLATE:: ATOM_MAP: 2 atom_name: C19 C20 C21 
+  CONSTRAINT:: distanceAB: 2.7 0.27 99 1 1 
+  CONSTRAINT:: angle_A: 111.8 9.6 99 360 1 
+  CONSTRAINT:: angle_B: 103 10.3 99 360 1
+  CONSTRAINT:: torsion_A: -167 16 99 360 1 
+  CONSTRAINT:: torsion_B: -90 9 99 180 1 # 180 allows either side of NAD 
+  # maybe 120 12 99 120 1 is better 
+  CONSTRAINT:: torsion_AB: 141 14 0 360 1 #weight zero, off for enzdes 
+CST::END

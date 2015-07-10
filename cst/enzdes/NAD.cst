@@ -1,0 +1,12 @@
+CST::BEGIN
+  TEMPLATE:: ATOM_MAP: 1 residue3: OXI
+  TEMPLATE:: ATOM_MAP: 1 atom_name: C1 C2 O1
+  TEMPLATE:: ATOM_MAP: 2 residue3: NAX 
+  TEMPLATE:: ATOM_MAP: 2 atom_name: C19 C20 C21 
+  CONSTRAINT:: distanceAB: 2.7 0.3 99 1 1
+  CONSTRAINT:: angle_A: 90 9 99 360 0 
+  CONSTRAINT:: angle_B: 90 9 99 360 0
+  CONSTRAINT:: torsion_A: 180 16 99 360 0 
+  CONSTRAINT:: torsion_B: 90 9 99 180 0 
+  # CONSTRAINT:: torsion_AB: 180 14 99 360 0 
+CST::END

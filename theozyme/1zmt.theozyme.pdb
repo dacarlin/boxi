@@ -1,0 +1,103 @@
+ATOM      1  N   SER A 132      24.567   5.439  28.490  1.00 12.58           N  
+ATOM      2  CA  SER A 132      24.906   5.835  29.853  1.00 12.23           C  
+ATOM      3  C   SER A 132      25.659   7.158  29.881  1.00 12.84           C  
+ATOM      4  O   SER A 132      26.345   7.506  28.923  1.00 12.55           O  
+ATOM      5  CB  SER A 132      25.768   4.751  30.502  1.00 12.04           C  
+ATOM      6  OG  SER A 132      26.229   5.157  31.781  1.00 12.33           O  
+TER       7      SER A 132 
+ATOM      8  N   TYR A 145      32.329  -1.418  31.941  1.00 12.70           N  
+ATOM      9  CA  TYR A 145      31.023  -0.837  31.667  1.00 11.69           C  
+ATOM     10  C   TYR A 145      31.118   0.557  31.061  1.00 11.20           C  
+ATOM     11  O   TYR A 145      30.485   0.850  30.046  1.00 11.99           O  
+ATOM     12  CB  TYR A 145      30.218  -0.780  32.969  1.00 11.29           C  
+ATOM     13  CG  TYR A 145      28.837  -0.181  32.840  1.00 13.16           C  
+ATOM     14  CD1 TYR A 145      28.643   1.202  32.886  1.00 14.18           C  
+ATOM     15  CD2 TYR A 145      27.721  -0.999  32.659  1.00 12.28           C  
+ATOM     16  CE1 TYR A 145      27.370   1.753  32.753  1.00 13.48           C  
+ATOM     17  CE2 TYR A 145      26.445  -0.458  32.526  1.00 12.92           C  
+ATOM     18  CZ  TYR A 145      26.278   0.915  32.572  1.00 14.81           C  
+ATOM     19  OH  TYR A 145      25.014   1.447  32.446  1.00 12.16           O  
+TER      20      TYR A 145 
+HETATM   21  C1  RNO A1002      26.074   1.312  37.289  1.00 44.51           C  
+HETATM   22  N1  RNO A1002      26.673   0.260  38.167  1.00 45.82           N  
+HETATM   23  O1  RNO A1002      26.631  -0.908  37.794  1.00 47.02           O  
+HETATM   24  C2  RNO A1002      25.493   0.940  36.084  1.00 43.47           C  
+HETATM   25  O2  RNO A1002      27.183   0.602  39.228  1.00 47.33           O  
+HETATM   26  C3  RNO A1002      24.932   1.936  35.267  1.00 43.20           C  
+HETATM   27  O3  RNO A1002      24.330   4.071  33.352  1.00 35.35           O  
+HETATM   28  C4  RNO A1002      24.949   3.294  35.636  1.00 40.36           C  
+HETATM   29  C5  RNO A1002      25.542   3.645  36.858  1.00 42.61           C  
+HETATM   30  C6  RNO A1002      26.109   2.656  37.692  1.00 44.08           C  
+HETATM   31  C7  RNO A1002      24.361   4.358  34.762  1.00 38.90           C  
+HETATM   32  C8  RNO A1002      23.095   4.205  34.069  1.00 36.35           C  
+CONECT   21   22
+CONECT   21   24
+CONECT   21   24
+CONECT   21   24
+CONECT   21   24
+CONECT   21   30
+CONECT   21   30
+CONECT   21   30
+CONECT   21   30
+CONECT   22   21
+CONECT   22   23
+CONECT   22   23
+CONECT   22   23
+CONECT   22   23
+CONECT   22   25
+CONECT   22   25
+CONECT   22   25
+CONECT   22   25
+CONECT   23   22
+CONECT   23   22
+CONECT   23   22
+CONECT   23   22
+CONECT   24   21
+CONECT   24   21
+CONECT   24   21
+CONECT   24   21
+CONECT   24   26
+CONECT   24   26
+CONECT   24   26
+CONECT   24   26
+CONECT   25   22
+CONECT   25   22
+CONECT   25   22
+CONECT   25   22
+CONECT   26   24
+CONECT   26   24
+CONECT   26   24
+CONECT   26   24
+CONECT   26   28
+CONECT   26   28
+CONECT   26   28
+CONECT   26   28
+CONECT   27   31   32
+CONECT   28   26
+CONECT   28   26
+CONECT   28   26
+CONECT   28   26
+CONECT   28   29
+CONECT   28   29
+CONECT   28   29
+CONECT   28   29
+CONECT   28   31
+CONECT   29   28
+CONECT   29   28
+CONECT   29   28
+CONECT   29   28
+CONECT   29   30
+CONECT   29   30
+CONECT   29   30
+CONECT   29   30
+CONECT   30   21
+CONECT   30   21
+CONECT   30   21
+CONECT   30   21
+CONECT   30   29
+CONECT   30   29
+CONECT   30   29
+CONECT   30   29
+CONECT   31   27   28   32
+CONECT   32   27   31
+END
