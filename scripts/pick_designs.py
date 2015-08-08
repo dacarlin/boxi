@@ -3,7 +3,7 @@ import pandas
 # read in scorefiles 
 from glob import glob 
 
-dfs = [ pandas.read_csv( i, sep=r'\s+' ) for i in glob( 'enzdes_out/*sc' ) ]
+dfs = [ pandas.read_csv( i, sep=r'\s+' ) for i in glob( 'out/enzdes_out/*sc' ) ]
 all = pandas.concat( dfs )
 
 print len( all ) 
@@ -13,6 +13,6 @@ cut = all[ ( all.SR_1_pstat_pm > 0.5 ) & ( all.SR_2_pstat_pm > 0.5 ) & ( all.all
 
 from subprocess import call 
 
-pdbs = [ 'enzdes_out/%s.pdb' % i for i in cut.description if 'BO' in i ] 
-call( [ 'tar', '-cvf', 'cut_bo.tar' ] + pdbs ) 
+pdbs = [ 'out/enzdes_out/%s.pdb' % i for i in cut.description if 'BO' in i ] 
+call( [ 'tar', '-cvf', 'etc/cut_bo.tar' ] + pdbs ) 
 print pdbs 
