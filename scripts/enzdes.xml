@@ -1,7 +1,7 @@
 <ROSETTASCRIPTS>
 
 <SCOREFXNS>
-  <myscore weights=talaris2013_cst.wts/>
+  <myscore weights=talaris2014_cst.wts/>
 </SCOREFXNS>
 
 <TASKOPERATIONS>
@@ -10,7 +10,6 @@
   <LimitAromaChi2 name=limchi2 />
   <SetCatalyticResPackBehavior name=catres fix_catalytic_aa=0 />
   <SetCatalyticResPackBehavior name=fixcat fix_catalytic_aa=1 />
-  <ProteinLigandInterfaceUpweighter name=up interface_weight=1.5 />
 </TASKOPERATIONS>
 
 <FILTERS>
@@ -26,12 +25,13 @@
   <EnzRepackMinimize name=cstopt cst_opt=1 minimize_rb=1 minimize_sc=1 minimize_bb=0 cycles=10 min_in_stages=0 minimize_lig=0 rb_min_jumps=2 />
 
   <ParsedProtocol name=dock_des>
+    <Add mover=cstopt/>
     <Add mover=predock />
     <Add mover=cstopt/>
     <Add mover=design_wbb/>
   </ParsedProtocol>
 
-  <GenericMonteCarlo name=iterative_dd mover_name=dock_des filter_name=allcst trials=1 sample_type=low temperature=0.6 drift=1 />
+  <GenericMonteCarlo name=iterative_dd mover_name=dock_des filter_name=allcst trials=3 sample_type=low temperature=0.6 drift=1 />
 
 </MOVERS>
 
