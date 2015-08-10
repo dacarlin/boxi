@@ -1,6 +1,6 @@
 #$ -S /bin/bash
-#$ -e ~/boxi/logs
-#$ -o ~/boxi/logs 
+#$ -e /home/carlin/boxi/logs/
+#$ -o /home/carlin/boxi/logs/
 #$ -N match
 #$ -l h_vmem=16G 
 
@@ -12,7 +12,7 @@ s=$( awk 'NR=="'${SGE_TASK_ID}'" { print $1 }' list/scaffold.txt )
 
 for i in RBO SBO OXI; do 
   for j in HW_HW HW_YTS YTS_YTS; do 
-    echo match.linuxgccrelease \
+    match.linuxgccrelease \
       -s pdb/$s.pdb \
       -match:geometric_constraint_file cst/match/${i}_${j}.cst \
       -extra_res_fa params/ligand/${i}.params params/cofactor/${s}.params \
@@ -23,6 +23,9 @@ for i in RBO SBO OXI; do
       -consolidate_matches 1 \
       -ignore_unrecognized_res 1 \
       -match_grouper SameSequenceGrouper \
+      -output_matches_per_group 1 \
       -out:path:all out/match/ 
   done 
 done
+
+mv UM* out/match/
