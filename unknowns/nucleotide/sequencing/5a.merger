@@ -1,0 +1,147 @@
+########################################
+# Program: merger
+# Rundate: Thu  1 Oct 2015 11:37:41
+# Commandline: merger
+#    -asequence alex5af_T7_Plate_Plate01_C01.seq
+#    -bsequence alex5ar_T7term_Plate_Plate01_C02.seq
+#    -sreverse2
+#    -outfile 5a.merger
+#    -outseq 5a.fasta
+# Align_format: simple
+# Report_file: 5a.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: alex5af_T7
+# 2: alex5ar_T7term
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1310
+# Identity:       1/1310 ( 0.1%)
+# Similarity:     0/1310 ( 0.0%)
+# Gaps:        1309/1310 (99.9%)
+# Score: -1.0
+# 
+#
+#=======================================
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter   1306 gtnnnnnnnnnncnnnnttnnnnnnnnnnnnnnnnnnnnnnggtnnnnnn   1257
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter   1256 nnntttnnnnnncnnnnnnnannncnnnncnnnnnngnnnnntnannnnn   1207
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter   1206 nncnnnntatngnnnnccnggggnccccnnncngnnnntnnnncnnnnnn   1157
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter   1156 tnnngnaannnntnnngncnganccnnnnnnaaggcttnnnnnnnggnnt   1107
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter   1106 ncaagnntccgnantncgcaagggacaggncnatcattnnnnnnttccan   1057
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter   1056 ggaaannggtccttgccgnaaatgacccagagcgctgccggcacctgtcc   1007
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter   1006 tacgagttgcatgataaagaagacagtcataagnncggcgacgatagtca    957
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    956 tgccccgcgcccaccggaaggagctgactgggttgaaggctctcaagggc    907
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    906 atcggtcgagatcccggtgcctaatgagtgagctaacttacattaattgc    857
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    856 gttgcgctcactgcccgctttccagtcgggaaacctgtcgtgccagctgc    807
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    806 attaatgaatcggccaacgcgcggggagaggcggtttgcgtattgggcgc    757
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    756 cagggtggtttttcttttcaccagtgagacgggcaacagctgattgccct    707
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    706 tcaccgcctggccctgagagagttgcagcaagcggtccacgctggtttgc    657
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    656 cccagcaggcgaaaatcctgtttgatggtggttaacggcgggatataaca    607
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    606 tgagctgtcttcggtatcgtcgtatcccactaccgagatgtccgcaccaa    557
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    556 cgcgcagcccggactcggtaatggcgcgcattgcgcccagcgccatctga    507
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    506 tcgttggcaaccagcatcgcagtgggaacgatgccctcattcagcatttg    457
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    456 catggtttgttgaaaaccggacatggcactccagtcgccttcccgttccg    407
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    406 ctatcggctgaatttgattgcgagtgagatatttatgccagccagccaga    357
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    356 cgcagacgcgccgagacagaacttaatgggcccgctaacagcgcgatttg    307
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    306 ctggtgacccaatgcgaccagatgctccacgcccagtcgcgtaccgtctt    257
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    256 catgggagaaaataatactgttgatgggtgtctggtcagagacatcaaga    207
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    206 aataacgccggaacattagtgcaggcagcttccacagcaatggcatcctg    157
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    156 gtcatccagcggatagttaatgatcagcccactgacgcgttgcgcgagaa    107
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter    106 gattgtgcaccgccgctttacaggcttcgacgccgcttcgttctaccacc     57
+
+alex5af_T7         1 --------------------------------------------------      0
+                                                                       
+alex5ar_T7ter     56 accaccaccactgagatccggctgctaacaaagcnngnaannnnnnnnnn      7
+
+alex5af_T7         1 -----nnnnn      5
+                               
+alex5ar_T7ter      6 nnnnnn----      1
+
+
+#---------------------------------------
+#
+# Conflicts:      alex5af_T7  alex5ar_T7term
+#              position base   position base Using
+# 
+#
+#---------------------------------------

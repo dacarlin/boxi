@@ -1,0 +1,75 @@
+########################################
+# Program: merger
+# Rundate: Thu  1 Oct 2015 11:37:41
+# Commandline: merger
+#    -asequence alex7af_T7_Plate_Plate01_D01.seq
+#    -bsequence alex7ar_T7term_Plate_Plate01_D02.seq
+#    -sreverse2
+#    -outfile 7a.merger
+#    -outseq 7a.fasta
+# Align_format: simple
+# Report_file: 7a.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: alex7af_T7
+# 2: alex7ar_T7term
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 439
+# Identity:       1/439 ( 0.2%)
+# Similarity:     0/439 ( 0.0%)
+# Gaps:         438/439 (99.8%)
+# Score: -1.0
+# 
+#
+#=======================================
+
+alex7af_T7         1 --------------------------------------------------      0
+                                                                       
+alex7ar_T7ter    435 ggtagngnatngagnnnnatcagntcatttgttanccattaggnngannn    386
+
+alex7af_T7         1 --------------------------------------------------      0
+                                                                       
+alex7ar_T7ter    385 ngncaaagtgcnttntaaatcgaaagantagacngaganagggtnnannn    336
+
+alex7af_T7         1 --------------------------------------------------      0
+                                                                       
+alex7ar_T7ter    335 ntggtccagtnnngnacaggagtccagtattaannaanannactccaang    286
+
+alex7af_T7         1 --------------------------------------------------      0
+                                                                       
+alex7ar_T7ter    285 tcaaagggngagaaacggtntntcagggcgatggctcanngnntnnacca    236
+
+alex7af_T7         1 --------------------------------------------------      0
+                                                                       
+alex7ar_T7ter    235 tcaccctnatcaagtttttggggtggaggngcnggaangcactaggttgg    186
+
+alex7af_T7         1 --------------------------------------------------      0
+                                                                       
+alex7ar_T7ter    185 atccgtaaaggnagcccccgatttagagcttgacggggaaagccggcgan    136
+
+alex7af_T7         1 --------------------------------------------------      0
+                                                                       
+alex7ar_T7ter    135 ngnggcgngaaaggaagggaagaaagcgaaaggggcgggcgctagggcgt     86
+
+alex7af_T7         1 --------------------------------------------------      0
+                                                                       
+alex7ar_T7ter     85 tggcaagngtgggggtcacntnngtaaccaccaccaccaccactgagatc     36
+
+alex7af_T7         1 ----------------------------------nnnnn      5
+                                                            
+alex7ar_T7ter     35 cggctgctaacaaagcncgaaannnnngnnnnnnn----      1
+
+
+#---------------------------------------
+#
+# Conflicts:      alex7af_T7  alex7ar_T7term
+#              position base   position base Using
+# 
+#
+#---------------------------------------

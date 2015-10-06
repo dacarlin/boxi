@@ -1,0 +1,63 @@
+########################################
+# Program: merger
+# Rundate: Thu  1 Oct 2015 11:37:41
+# Commandline: merger
+#    -asequence alex7cf_T7_Plate_Plate01_D05.seq
+#    -bsequence alex7cr_T7term_Plate_Plate01_D06.seq
+#    -sreverse2
+#    -outfile 7c.merger
+#    -outseq 7c.fasta
+# Align_format: simple
+# Report_file: 7c.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: alex7cf_T7
+# 2: alex7cr_T7term
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 287
+# Identity:       1/287 ( 0.3%)
+# Similarity:     0/287 ( 0.0%)
+# Gaps:         286/287 (99.7%)
+# Score: -1.0
+# 
+#
+#=======================================
+
+alex7cf_T7         1 nnnnn---------------------------------------------      5
+                                                                       
+alex7cr_T7ter    283 ----naacnggatggtagcatgntntctcgnttcagcggtattattnctg    238
+
+alex7cf_T7         6 --------------------------------------------------      5
+                                                                       
+alex7cr_T7ter    237 ccttgaacagttttnnggntnacncggggnancagtgaccaancaggaaa    188
+
+alex7cf_T7         6 --------------------------------------------------      5
+                                                                       
+alex7cr_T7ter    187 aaaccgccnttaacatnnccggtntagnngaagccagacattaacgnttg    138
+
+alex7cf_T7         6 --------------------------------------------------      5
+                                                                       
+alex7cr_T7ter    137 tgnngaaactcaacgagcngnanggggnnnaacaggcagacatntgtgan     88
+
+alex7cf_T7         6 --------------------------------------------------      5
+                                                                       
+alex7cr_T7ter     87 tggnttngggaccacgctgcgcgtaaccaccaccaccaccanngatatcc     38
+
+alex7cf_T7         6 -------------------------------------      5
+                                                          
+alex7cr_T7ter     37 ggctgctnacaaagccngnnannnnnnnnnnnnnnnn      1
+
+
+#---------------------------------------
+#
+# Conflicts:      alex7cf_T7  alex7cr_T7term
+#              position base   position base Using
+# 
+#
+#---------------------------------------
