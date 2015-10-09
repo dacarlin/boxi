@@ -1,0 +1,193 @@
+########################################
+# Program: merger
+# Rundate: Thu  1 Oct 2015 11:37:41
+# Commandline: merger
+#    -asequence alex6af_T7_Plate_Plate01_C07.seq
+#    -bsequence alex6ar_T7term_Plate_Plate01_C08.seq
+#    -sreverse2
+#    -outfile 6a.merger
+#    -outseq 6a.fasta
+# Align_format: simple
+# Report_file: 6a.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: alex6af_T7
+# 2: alex6ar_T7term
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1868
+# Identity:     582/1868 (31.2%)
+# Similarity:   582/1868 (31.2%)
+# Gaps:        1243/1868 (66.5%)
+# Score: 2820.0
+# 
+#
+#=======================================
+
+alex6af_T7         1 --------------------------------------------------      0
+                                                                       
+alex6ar_T7ter   1256 annnntngnnnnngnnnnnncnnnnnnnnnnnnnnncnnnnnnaannntt   1207
+
+alex6af_T7         1 --------------------------------------------------      0
+                                                                       
+alex6ar_T7ter   1206 tncccccannttntncnnnngnnngnnnnnnnnagttncccnnnnnnntt   1157
+
+alex6af_T7         1 --------------------------------------------------      0
+                                                                       
+alex6ar_T7ter   1156 ncnnntttccnggttttgcggnaannnggnnnnnnngttnnccnnnnggn   1107
+
+alex6af_T7         1 --------------------------------------------------      0
+                                                                       
+alex6ar_T7ter   1106 nanggnnnnnnngagacancggnnnannntnggnnatggnnnnnngntan   1057
+
+alex6af_T7         1 --------------------------------------------------      0
+                                                                       
+alex6ar_T7ter   1056 nggtttcacattcancncccnnnanngacnntcttccnggcgctatcatg   1007
+
+alex6af_T7         1 --------------------------------------------------      0
+                                                                       
+alex6ar_T7ter   1006 ccatannnngnaaggnttngnnccattcnatggnntccgggatctggacg    957
+
+alex6af_T7         1 --------------------------------------------------      0
+                                                                       
+alex6ar_T7ter    956 ctctnccttatgcgactccngcattaggaagcagcccagtagtaggttga    907
+
+alex6af_T7         1 --------------------------------------------------      0
+                                                                       
+alex6ar_T7ter    906 ggccgttgagcaccgccgccgcaaggaatggtgcatgcaaggagatggcg    857
+
+alex6af_T7         1 --------------------------------------------------      0
+                                                                       
+alex6ar_T7ter    856 cccaacagtcccccggccacggggcctgccaccatacccacgccgaaaca    807
+
+alex6af_T7         1 --------------------------------------------------      0
+                                                                       
+alex6ar_T7ter    806 agcgctcatgagcccgaagtggcgagcccgatcttccccatcggtgatgt    757
+
+alex6af_T7         1 --------------------------------------------------      0
+                                                                       
+alex6ar_T7ter    756 cggcgatataggcgccagcaaccgcacctgtggcgccggtgatgccggcc    707
+
+alex6af_T7         1 --------------------------------------------------      0
+                                                                       
+alex6ar_T7ter    706 acgatgcgtccggcgtagaggatcgagatcgatctcgatcccgcgaaatt    657
+
+alex6af_T7         1 -------------------------------nnnnnnnnnnnnnnnnctn     19
+                                                                    .. 
+alex6ar_T7ter    656 aatacgactcactataggggaattgtgagcggataacaattcccctctag    607
+
+alex6af_T7        20 nnnnnattttgttnanctttaagaaggagatatacatatgatgcatgaaa     69
+                          |||||||| | ||||||||||||||||||||||||||||||||||
+alex6ar_T7ter    606 aaataattttgtttaactttaagaaggagatatacatatgatgcatgaaa    557
+
+alex6af_T7        70 atcngcagccgcagaccgaagcatttgaactgagcgcagcagaacgtgaa    119
+                     ||| ||||||||||||||||||||||||||||||||||||||||||||||
+alex6ar_T7ter    556 atcagcagccgcagaccgaagcatttgaactgagcgcagcagaacgtgaa    507
+
+alex6af_T7       120 gcaattgaacatgaaatgcaccattatgaagatccgcgtgcagcaagcat    169
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6ar_T7ter    506 gcaattgaacatgaaatgcaccattatgaagatccgcgtgcagcaagcat    457
+
+alex6af_T7       170 tgaagcactgaaaattgttcagaaacagcgtggttgggttccggatggtg    219
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6ar_T7ter    456 tgaagcactgaaaattgttcagaaacagcgtggttgggttccggatggtg    407
+
+alex6af_T7       220 ccattcatgcaattgccgatgttctgggtattccggcaagtgatgttgaa    269
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6ar_T7ter    406 ccattcatgcaattgccgatgttctgggtattccggcaagtgatgttgaa    357
+
+alex6af_T7       270 ggtgttgcaaccttttatagccagatttttcgtcagccggttggtcgtca    319
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6ar_T7ter    356 ggtgttgcaaccttttatagccagatttttcgtcagccggttggtcgtca    307
+
+alex6af_T7       320 tgttattcgttattgtgatagcgttgtgtgccatattaatggctatcagg    369
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6ar_T7ter    306 tgttattcgttattgtgatagcgttgtgtgccatattaatggctatcagg    257
+
+alex6af_T7       370 gtattcaggcagccctggaaaaaaaactgaacattaaaccgggtcagacc    419
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6ar_T7ter    256 gtattcaggcagccctggaaaaaaaactgaacattaaaccgggtcagacc    207
+
+alex6af_T7       420 acctttgatggtcgttttaccctgctgccgacctgttgtctgggtaattg    469
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6ar_T7ter    206 acctttgatggtcgttttaccctgctgccgacctgttgtctgggtaattg    157
+
+alex6af_T7       470 tgataaaggtccgaacatgatgatcgatgaagatacccatgcacatctga    519
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6ar_T7ter    156 tgataaaggtccgaacatgatgatcgatgaagatacccatgcacatctga    107
+
+alex6af_T7       520 caccggaagcaatcccggaactgctggaacgttataaactcgagcaccac    569
+                     ||||||||||||||||||||||||.|||||||||||||||||||||||||
+alex6ar_T7ter    106 caccggaagcaatcccggaactgcnggaacgttataaactcgagcaccac     57
+
+alex6af_T7       570 caccaccaccactgagatccggctgctaacaaagcccgaaaggaagctga    619
+                     ||||||||||||||||||||||||||||||||||...|||.||||.....
+alex6ar_T7ter     56 caccaccaccactgagatccggctgctaacaaagnnngaanggaannnnn      7
+
+alex6af_T7       620 gttggctgctgccaccgctgagcaataactagcataaccccttggggcct    669
+                     ......                                            
+alex6ar_T7ter      6 nnnnnn--------------------------------------------      1
+
+alex6af_T7       670 ctaaacgggtcttgaggggttttttgctgaaaggaggaactatatccgga    719
+                                                                       
+alex6ar_T7ter      0 --------------------------------------------------      1
+
+alex6af_T7       720 ttggcgaatgggacgcgccctgtagcggcgcattaagcgcggcgggtgtg    769
+                                                                       
+alex6ar_T7ter      0 --------------------------------------------------      1
+
+alex6af_T7       770 gtggttacgcgcagcgtgaccgctacacttgccagcgccctagcgcccgc    819
+                                                                       
+alex6ar_T7ter      0 --------------------------------------------------      1
+
+alex6af_T7       820 tcctttcgctttcttcccttcctttctcgccacgttcgccggctttcccc    869
+                                                                       
+alex6ar_T7ter      0 --------------------------------------------------      1
+
+alex6af_T7       870 gtcaagctctaaatcgggggctccctttagggttccgatttagtgcttta    919
+                                                                       
+alex6ar_T7ter      0 --------------------------------------------------      1
+
+alex6af_T7       920 cggcacctcgaccccaaaaaacttgattagggtgatggttcacgtagtgg    969
+                                                                       
+alex6ar_T7ter      0 --------------------------------------------------      1
+
+alex6af_T7       970 gccatcgccntgatagacggttttcccnntttgacgttggagncccngtt   1019
+                                                                       
+alex6ar_T7ter      0 --------------------------------------------------      1
+
+alex6af_T7      1020 ctttannngtggactcttgttccaactggaacaaccnnnaccctatccng   1069
+                                                                       
+alex6ar_T7ter      0 --------------------------------------------------      1
+
+alex6af_T7      1070 gccattctnngnttnaanggnattnnncnnttnnnnccnnttgnnnaaaa   1119
+                                                                       
+alex6ar_T7ter      0 --------------------------------------------------      1
+
+alex6af_T7      1120 ntgagctgattnanaaanttnacgcnanttnannanannnaacgnncacn   1169
+                                                                       
+alex6ar_T7ter      0 --------------------------------------------------      1
+
+alex6af_T7      1170 ttnagggggcctttncggnaannnnnnnnaaccnnntnnnnnttnnnnan   1219
+                                                                       
+alex6ar_T7ter      0 --------------------------------------------------      1
+
+alex6af_T7      1220 nnnnaannnnnnccnnnn   1237
+                                       
+alex6ar_T7ter      0 ------------------      1
+
+
+#---------------------------------------
+#
+# Conflicts:      alex6af_T7  alex6ar_T7term
+#              position base   position base Using
+#                    17  'c'        648  'T'   'T'
+#                    18  't'        649  'A'   'A'
+# 
+#
+#---------------------------------------

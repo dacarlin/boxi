@@ -1,0 +1,161 @@
+########################################
+# Program: merger
+# Rundate: Thu  1 Oct 2015 11:37:40
+# Commandline: merger
+#    -asequence alex1af_T7_Plate_Plate01_A01.seq
+#    -bsequence alex1ar_T7term_Plate_Plate01_A02.seq
+#    -sreverse2
+#    -outfile 1a.merger
+#    -outseq 1a.fasta
+# Align_format: simple
+# Report_file: 1a.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: alex1af_T7
+# 2: alex1ar_T7term
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1471
+# Identity:     926/1471 (63.0%)
+# Similarity:   925/1471 (62.9%)
+# Gaps:         503/1471 (34.2%)
+# Score: 4536.0
+# 
+#
+#=======================================
+
+alex1af_T7         1 --------------------------------------------------      0
+                                                                       
+alex1ar_T7ter   1248 anttnngnnnnnccnnnnnnnccccccccnnnnaannnnnnnnnnnnnnn   1199
+
+alex1af_T7         1 --------------------------------------------------      0
+                                                                       
+alex1ar_T7ter   1198 nnnnnccnncannnnccnnnccnnngggccnnncnnnnannccnnnnngn   1149
+
+alex1af_T7         1 --------------------------------------------------      0
+                                                                       
+alex1ar_T7ter   1148 aannnnngnnnnnnanccgaanggnnngnccgatcttncccnnnnnngnn   1099
+
+alex1af_T7         1 --------------------------------------------------      0
+                                                                       
+alex1ar_T7ter   1098 nnnnggnnnnnnngcgccagcaaccgcaccnngggcgccggnnnngccgg   1049
+
+alex1af_T7         1 --------------------------------------------------      0
+                                                                       
+alex1ar_T7ter   1048 ccacgatgnnnccggcgtagaggatcgagatcgatctcgatcccgcgaaa    999
+
+alex1af_T7         1 ------------------------------nnnnnnnnnnnnnnnnnnct     20
+                                                                     ||
+alex1ar_T7ter    998 ttaatacgactcactataggggaattgtgagcggataacaatncccctct    949
+
+alex1af_T7        21 nnnnnnnnttttgtttaactttaagaaggagatatacatatgatgctgag     70
+                             ||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    948 agaaataattttgtttaactttaagaaggagatatacatatgatgctgag    899
+
+alex1af_T7        71 ctatcgccatagctttcatgcaggtaatcatgcagatgttctgaaacata    120
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    898 ctatcgccatagctttcatgcaggtaatcatgcagatgttctgaaacata    849
+
+alex1af_T7       121 ccgttcagagcctgattattgaaagcctgaaagagaaagataaaccgttc    170
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    848 ccgttcagagcctgattattgaaagcctgaaagagaaagataaaccgttc    799
+
+alex1af_T7       171 ctgtatctggatacccatgccggtgcaggtcgttatcagctgggtagcga    220
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    798 ctgtatctggatacccatgccggtgcaggtcgttatcagctgggtagcga    749
+
+alex1af_T7       221 acatgcagaacgtaccggtgaatatctggaaggtattgcacgtatttggc    270
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    748 acatgcagaacgtaccggtgaatatctggaaggtattgcacgtatttggc    699
+
+alex1af_T7       271 agcaggatgatctgcctgcagaactggaagcctatattaacgttgtgaaa    320
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    698 agcaggatgatctgcctgcagaactggaagcctatattaacgttgtgaaa    649
+
+alex1af_T7       321 catttcaatcgtagcggtcagctgcgttattatccgggtagtccgctgat    370
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    648 catttcaatcgtagcggtcagctgcgttattatccgggtagtccgctgat    599
+
+alex1af_T7       371 tgcacgtcagctgctgcgtgaacaggatagcctgcagctgacagaactgc    420
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    598 tgcacgtcagctgctgcgtgaacaggatagcctgcagctgacagaactgc    549
+
+alex1af_T7       421 atccgagcgattatccgctgctgcgcagtgaatttcagaaagatagccgt    470
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    548 atccgagcgattatccgctgctgcgcagtgaatttcagaaagatagccgt    499
+
+alex1af_T7       471 gcacgtgttgaaaaagcagatggttttcagcaactgaaagcaaaactgcc    520
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    498 gcacgtgttgaaaaagcagatggttttcagcaactgaaagcaaaactgcc    449
+
+alex1af_T7       521 tccggttagccgtcgtggtctgattctgattgatccgccttatgaaatga    570
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    448 tccggttagccgtcgtggtctgattctgattgatccgccttatgaaatga    399
+
+alex1af_T7       571 aaaccgattatcaggcagttgttagcggtattgcagaaggttataaacgt    620
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    398 aaaccgattatcaggcagttgttagcggtattgcagaaggttataaacgt    349
+
+alex1af_T7       621 tttgcaaccggcacctatgcactgtggtatccggttgttctgcgtcagca    670
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    348 tttgcaaccggcacctatgcactgtggtatccggttgttctgcgtcagca    299
+
+alex1af_T7       671 gattaaacgtatgattcatgatctggaagcaaccggtattcgtaaaattc    720
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    298 gattaaacgtatgattcatgatctggaagcaaccggtattcgtaaaattc    249
+
+alex1af_T7       721 tgcagattgaactggcagttctgccggatagcgatcgtcgtggtatgacc    770
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    248 tgcagattgaactggcagttctgccggatagcgatcgtcgtggtatgacc    199
+
+alex1af_T7       771 gcaagcggtatgattgttattaatccgccttggaaactggaacagcagat    820
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    198 gcaagcggtatgattgttattaatccgccttggaaactggaacagcagat    149
+
+alex1af_T7       821 gaataatgttctgccgtggctgcatagcaaactggttccggcaggcaccg    870
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter    148 gaataatgttctgccgtggctgcatagcaaactggttccggcaggcaccg     99
+
+alex1af_T7       871 gtcatgcaaccgttagctggattgttccggaactcgagcaccaccaccac    920
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex1ar_T7ter     98 gtcatgcaaccgttagctggattgttccggaactcgagcaccaccaccac     49
+
+alex1af_T7       921 caccactgagatccggctgctaacaaagcccgaaaggaagctgagttggc    970
+                     ||||||||||||||||||||||||||||....||.|............  
+alex1ar_T7ter     48 caccactgagatccggctgctaacaaagnngnaangannnnnnnnnnn--      1
+
+alex1af_T7       971 tgctgccaccgctgaacaanaactagcataaccccttggggccnnnaanc   1020
+                                                                       
+alex1ar_T7ter      0 --------------------------------------------------      1
+
+alex1af_T7      1021 gggtcttgagggntttttngctgaaaggaggaacnnnatccggattggnn   1070
+                                                                       
+alex1ar_T7ter      0 --------------------------------------------------      1
+
+alex1af_T7      1071 aangnnnnnnncnnnnnnnnnnncnattaagnngnnggnntggggnntac   1120
+                                                                       
+alex1ar_T7ter      0 --------------------------------------------------      1
+
+alex1af_T7      1121 cccnncctnncngnnaacttgccaggccntnnnnccntncttncgtttnc   1170
+                                                                       
+alex1ar_T7ter      0 --------------------------------------------------      1
+
+alex1af_T7      1171 tccttnnntnnggcnnntnnn   1191
+                                          
+alex1ar_T7ter      0 ---------------------      1
+
+
+#---------------------------------------
+#
+# Conflicts:      alex1af_T7  alex1ar_T7term
+#              position base   position base Using
+#                   951  'C'       1231  'g'   'C'
+#                   957  'G'       1237  'a'   'G'
+# 
+#
+#---------------------------------------

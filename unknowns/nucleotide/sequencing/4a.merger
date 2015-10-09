@@ -1,0 +1,219 @@
+########################################
+# Program: merger
+# Rundate: Thu  1 Oct 2015 11:37:40
+# Commandline: merger
+#    -asequence alex4af_T7_Plate_Plate01_B07.seq
+#    -bsequence alex4ar_T7term_Plate_Plate01_B08.seq
+#    -sreverse2
+#    -outfile 4a.merger
+#    -outseq 4a.fasta
+# Align_format: simple
+# Report_file: 4a.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: alex4af_T7
+# 2: alex4ar_T7term
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 2209
+# Identity:       1/2209 ( 0.0%)
+# Similarity:     0/2209 ( 0.0%)
+# Gaps:        2208/2209 (100.0%)
+# Score: -1.0
+# 
+#
+#=======================================
+
+alex4af_T7         1 nnnnnnnnnnnnnnnnnnnnnnnncnnnnantaattttgtttacctttaa     50
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7        51 gaaggagntatacatatgatgagcaaaatcntnannnnnanccgtctgaa    100
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       101 attattgannancgtggtttcnnaccgnnccngccntgntcctctgtnng    150
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       151 atgnttttgntggnatgncagncannacctgnnntgcaagcncctgnacc    200
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       201 cgttaagnctggaactgcnntaganggaanccnncgttttttggttaang    250
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       251 gtgttacgcaagnanttgcanaanttttgttncgattgnnnnggnattgn    300
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       301 ttgnnnnaattgnnaaaaatcagggccgcatccnnanagttgccntggnt    350
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       351 ctgganggnacccataacnaantggatttggggcatataacattttggnn    400
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       401 tttagnntgcatccngcaccatcnntatccccctnttaaggtaagccgtt    450
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       451 gtaagaatntcnngntgangntngaggtacnnnttnaaangancgancgg    500
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       501 tnccgatgatcaatgttaccgangctgntgaacatgcctaanaccaanna    550
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       551 cntantnnagaaatctncaatcngacggcacctgtcccnttcgttaaaaa    600
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       601 ancnttacagtgggcctgcgaagtgntgcatggaactgcctaagtgacnn    650
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       651 caaaccancggnanngnanngangcnnntcanganngtgtntntgcnncn    700
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       701 nctctgnntancantgcggannctcanctnattnatgnnnangcccntaa    750
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       751 angcgcctgtnattangcggganaannntnttncctctgacagnnnnngn    800
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       801 ncnnngacngaatttgnntgacgaancgnnnannatnatctngncagcng    850
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       851 aagnaaatannnnaannacnnnnnnnnnanntgacnangatnccnntnnn    900
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       901 nntannngnnncnnnnngananacnaannnntagcncnnnannnnngnnt    950
+                                                                       
+alex4ar_T7ter   1230 --------------------------------------------------   1231
+
+alex4af_T7       951 tcnnagnnnngnnnnnnntgnnnnggnnnn--------------------    980
+                                                                       
+alex4ar_T7ter   1230 -----------------------------nnngnnnnnnnccnggnannn   1210
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter   1209 nnnnnnnnnnnnaannntttttngggnnnanngnttccnaannnnnnnnn   1160
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter   1159 nncagttaaggntnngnntnnnncngnncnnnnntngnnaannnncnnaa   1110
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter   1109 nnnnnnncangnnnnngnnnaantnnggatcgatcnngnnggnnccnaga   1060
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter   1059 acaaaagcaaanttggtgcnaatgcaantnnggcagttagcctggcaaat   1010
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter   1009 gccnaagcagcagcagccgcnaaaggtatgccgctgtatgaacatattgc    960
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    959 agaactgaatggtacaccnggtaaatatagcatgccggttncgatgatga    910
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    909 atattatcaatggtngngaacatgccgataacaacgtggatattcaagaa    860
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    859 ttcatgattcagccggttggtgccaaaaccgttaaagaagcaattcgtat    810
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    809 gggtagcgaagtgtttcatcatctggcaaaagttctgaaagccaaaggta    760
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    759 tgaataccgcagttggtgatgaaggtggctatgcaccgaatctgggtagc    710
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    709 aatgcagaagccctggccgttattgccgaagcagttaaagcagccggtta    660
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    659 tgaactgggcaaagatattaccctggcaatggattgtgcagcaagcgaat    610
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    609 tctataaagatggcaaatatgttctggcaggcgaaggtaataaagcattt    560
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    559 accagcgaagaatttacccatttcctggaagaactgaccaaacagtatcc    510
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    509 gattgttagcattgaagatggtctggatgaaagcgattgggatggttttg    460
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    459 catatcagaccaaagttctgggcgataaaattcagctggtaggtgatgac    410
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    409 ctgtttgtgaccaatacgaaaatcctgaaagaaggcattgaaaaaggtat    360
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    359 cgccaacagcattctgatcaaatttaaccagattggtagcctgaccgaaa    310
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    309 ccctggcagcaatcaaaatggcaaaagatgccggttatacagccgttatt    260
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    259 agccatcgtagcggtgaaaccgaagatgcaaccattgcagatctggccgt    210
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    209 tggcaccgcagcaggtcagattaaaaccggtagcatgagccgtagcgatc    160
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    159 gtgttgccaaatataaccagctgattcgtattgaagaagcgcngggcgaa    110
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter    109 aaagcaccgtataatggtcgtaaagaaattaaaggtcaggccctcgagca     60
+
+alex4af_T7       981 --------------------------------------------------    980
+                                                                       
+alex4ar_T7ter     59 ccaccaccaccaccactgagatccggctgctaacaaaccnngnaannnnn     10
+
+alex4af_T7       981 ---------    980
+                              
+alex4ar_T7ter      9 nnnnnnnnn      1
+
+
+#---------------------------------------
+#
+# Conflicts:      alex4af_T7  alex4ar_T7term
+#              position base   position base Using
+# 
+#
+#---------------------------------------

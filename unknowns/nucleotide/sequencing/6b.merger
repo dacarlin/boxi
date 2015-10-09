@@ -1,0 +1,184 @@
+########################################
+# Program: merger
+# Rundate: Thu  1 Oct 2015 11:37:41
+# Commandline: merger
+#    -asequence alex6bf_T7_Plate_Plate01_C09.seq
+#    -bsequence alex6br_T7term_Plate_Plate01_C10.seq
+#    -sreverse2
+#    -outfile 6b.merger
+#    -outseq 6b.fasta
+# Align_format: simple
+# Report_file: 6b.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: alex6bf_T7
+# 2: alex6br_T7term
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1729
+# Identity:     574/1729 (33.2%)
+# Similarity:   574/1729 (33.2%)
+# Gaps:        1097/1729 (63.4%)
+# Score: 2744.0
+# 
+#
+#=======================================
+
+alex6bf_T7         1 --------------------------------------------------      0
+                                                                       
+alex6br_T7ter   1151 ccnntttccnnggnttnnngnaanntgnnnncnngttncccnnnnggnaa   1102
+
+alex6bf_T7         1 --------------------------------------------------      0
+                                                                       
+alex6br_T7ter   1101 cgnttnatnangancccggcatnnnnnggacatggnnnangntacnggtt   1052
+
+alex6bf_T7         1 --------------------------------------------------      0
+                                                                       
+alex6br_T7ter   1051 nacattcaccnccnnnnangnnnntttccnggggctatcatgccataccn   1002
+
+alex6bf_T7         1 --------------------------------------------------      0
+                                                                       
+alex6br_T7ter   1001 cgaaaggntttgcgccattcgatggtgtccgggatctcgacgctctccct    952
+
+alex6bf_T7         1 --------------------------------------------------      0
+                                                                       
+alex6br_T7ter    951 tatgcgactcctgcattaggaagcagcccagtagtaggttgaggccgttg    902
+
+alex6bf_T7         1 --------------------------------------------------      0
+                                                                       
+alex6br_T7ter    901 agcaccgccgccgcaaggaatggtgcatgcaaggagatggcgcccaacag    852
+
+alex6bf_T7         1 --------------------------------------------------      0
+                                                                       
+alex6br_T7ter    851 tcccccggccacggggcctgccaccatacccacgccgaaacaagcgctca    802
+
+alex6bf_T7         1 --------------------------------------------------      0
+                                                                       
+alex6br_T7ter    801 tgagcccgaagtggcgagcccgatcttccccatcggtgatgtcggcgata    752
+
+alex6bf_T7         1 --------------------------------------------------      0
+                                                                       
+alex6br_T7ter    751 taggcgccagcaaccgcacctgtggcgccggtgatgccggccacgatgcg    702
+
+alex6bf_T7         1 --------------------------------------------------      0
+                                                                       
+alex6br_T7ter    701 tccggcgtagaggatcgagatcgatctcgatcccgcgaaattaatacgac    652
+
+alex6bf_T7         1 -------------------nnnnnnnnnnnnnnntnnnnctannnnnntt     31
+                                                       .    ...      ||
+alex6br_T7ter    651 tcactataggggaattgtgagcggataacaattcccctctagaaataatt    602
+
+alex6bf_T7        32 ttgtttaactttaagaaggagatatacatatgatgcatgaaaatcnncag     81
+                     |||||||||||||||||||||||||||||||||||||||||||||  |||
+alex6br_T7ter    601 ttgtttaactttaagaaggagatatacatatgatgcatgaaaatcagcag    552
+
+alex6bf_T7        82 ccgcagaccgaagcatttgaactgagcgcagcagaacgtgaagcaattga    131
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6br_T7ter    551 ccgcagaccgaagcatttgaactgagcgcagcagaacgtgaagcaattga    502
+
+alex6bf_T7       132 acatgaaatgcaccattatgaagatccgcgtgcagcaagcattgaagcac    181
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6br_T7ter    501 acatgaaatgcaccattatgaagatccgcgtgcagcaagcattgaagcac    452
+
+alex6bf_T7       182 tgaaaattgttcagaaacagcgtggttgggttccggatggtgccattcat    231
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6br_T7ter    451 tgaaaattgttcagaaacagcgtggttgggttccggatggtgccattcat    402
+
+alex6bf_T7       232 gcaattgccgatgttctgggtattccggcaagtgatgttgaaggtgttgc    281
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6br_T7ter    401 gcaattgccgatgttctgggtattccggcaagtgatgttgaaggtgttgc    352
+
+alex6bf_T7       282 aaccttttatagccagatttttcgtcagccggttggtcgtcatgttattc    331
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6br_T7ter    351 aaccttttatagccagatttttcgtcagccggttggtcgtcatgttattc    302
+
+alex6bf_T7       332 gttattgtgatagcgttgtgtgccatattaatggctatcagggtattcag    381
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6br_T7ter    301 gttattgtgatagcgttgtgtgccatattaatggctatcagggtattcag    252
+
+alex6bf_T7       382 gcagccctggaaaaaaaactgaacattaaaccgggtcagaccacctttga    431
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6br_T7ter    251 gcagccctggaaaaaaaactgaacattaaaccgggtcagaccacctttga    202
+
+alex6bf_T7       432 tggtcgttttaccctgctgccgacctgttgtctgggtaattgtgataaag    481
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6br_T7ter    201 tggtcgttttaccctgctgccgacctgttgtctgggtaattgtgataaag    152
+
+alex6bf_T7       482 gtccgaacatgatgatcgatgaagatacccatgcacatctgacaccggaa    531
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+alex6br_T7ter    151 gtccgaacatgatgatcgatgaagatacccatgcacatctgacaccggaa    102
+
+alex6bf_T7       532 gcaatcccggaactgctggaacgttataaactcgagcaccaccaccacca    581
+                     ||||||||||||||||.|||||||||||||||||||||||||||||||||
+alex6br_T7ter    101 gcaatcccggaactgcnggaacgttataaactcgagcaccaccaccacca     52
+
+alex6bf_T7       582 ccactgagatccggctgctaacaaagcccgaaaggaagctgagttggctg    631
+                     |||||||||||||||||||||||||.........................
+alex6br_T7ter     51 ccactgagatccggctgctaacaaannnnnnnnnnnnngnnnnnnnnnnn      2
+
+alex6bf_T7       632 ctgccaccgctgagcaataactagcataaccccttggggcctctaaacgg    681
+                     .                                                 
+alex6br_T7ter      1 n-------------------------------------------------      1
+
+alex6bf_T7       682 gtcttgaggggttttttgctgaaaggaggaactatatccggattggcgaa    731
+                                                                       
+alex6br_T7ter      0 --------------------------------------------------      1
+
+alex6bf_T7       732 tgggacgcgccctgtagcggcgcattaagcgcggcgggtgtggtggttac    781
+                                                                       
+alex6br_T7ter      0 --------------------------------------------------      1
+
+alex6bf_T7       782 gcgcagcgtgaccgctacacttgccagcgccctagcgcccgctcctttcg    831
+                                                                       
+alex6br_T7ter      0 --------------------------------------------------      1
+
+alex6bf_T7       832 ctttcttcccttcctttctcgccacgttcgccggctttccccgtcaagct    881
+                                                                       
+alex6br_T7ter      0 --------------------------------------------------      1
+
+alex6bf_T7       882 ctaaatcgggggctccctttagggttccgatttagtgctttacggcacct    931
+                                                                       
+alex6br_T7ter      0 --------------------------------------------------      1
+
+alex6bf_T7       932 cgacccnnaaaancttgattagggtgatggttcacgtagtgggccatcgc    981
+                                                                       
+alex6br_T7ter      0 --------------------------------------------------      1
+
+alex6bf_T7       982 cntgatagacggttttncgccntttgacgtnggagncccngttcttnnnn   1031
+                                                                       
+alex6br_T7ter      0 --------------------------------------------------      1
+
+alex6bf_T7      1032 ngtggactcttgttccaactggaacnnnnnnnnccntatctngncnatnn   1081
+                                                                       
+alex6br_T7ter      0 --------------------------------------------------      1
+
+alex6bf_T7      1082 tttnnnnnnaanggnanttnnnnnnttcnnnnnntggntaaaantnanct   1131
+                                                                       
+alex6br_T7ter      0 --------------------------------------------------      1
+
+alex6bf_T7      1132 gattnacnaaattnnngnnanttnaanaaanttaacgnnnnnnnnnaggg   1181
+                                                                       
+alex6br_T7ter      0 --------------------------------------------------      1
+
+alex6bf_T7      1182 ncctttnnggnaannnnnnnnaacctnnn   1210
+                                                  
+alex6br_T7ter      0 -----------------------------      1
+
+
+#---------------------------------------
+#
+# Conflicts:      alex6bf_T7  alex6br_T7term
+#              position base   position base Using
+#                    16  't'        535  'C'   'C'
+#                    21  'c'        540  'T'   'T'
+#                    22  't'        541  'A'   'A'
+#                    23  'a'        542  'G'   'G'
+#                   620  'C'       1139  'g'   'C'
+# 
+#
+#---------------------------------------

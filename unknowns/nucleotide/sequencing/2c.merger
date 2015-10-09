@@ -1,0 +1,171 @@
+########################################
+# Program: merger
+# Rundate: Thu  1 Oct 2015 11:37:40
+# Commandline: merger
+#    -asequence alex2cf_T7_Plate_Plate01_A11.seq
+#    -bsequence alex2cr_T7term_Plate_Plate01_A12.seq
+#    -sreverse2
+#    -outfile 2c.merger
+#    -outseq 2c.fasta
+# Align_format: simple
+# Report_file: 2c.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: alex2cf_T7
+# 2: alex2cr_T7term
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1143
+# Identity:     299/1143 (26.2%)
+# Similarity:   294/1143 (25.7%)
+# Gaps:         769/1143 (67.3%)
+# Score: 992.0
+# 
+#
+#=======================================
+
+alex2cf_T7         1 nnnnnnnnnnnnnnnttnnnnctnnnnnnntttngtttaactttaagaag     50
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7        51 gagatatacatatgatggtgatcaactgcnccttnattggttttggtaaa    100
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       101 agcaccacccgttatcatctgccgtatgttctgaatcgtaaagatagctg    150
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       151 gcatgtggcacatatttttcgtcgtcatgcaaaaccggaagaacaggcac    200
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       201 cgatttatagccatattcattttaccagcgatctggatgaagttctgaat    250
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       251 gatccggatgttaaactggttgttgtttgtacccatgccgatagccattt    300
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       301 tgaatatgcaaaacgtgcactggaagccggtaaaaatgttctggttgaaa    350
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       351 aaccgtttaccccgaccctggcacaggcaaaagaactgtttgcactggca    400
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       401 aaaagcaaaggtctgaccgttaccccgtatcagaatcgtcgttttgatag    450
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       451 ctgttttctgaccgccaaaaaagcaattgaaagcggtaaactgggtgaaa    500
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       501 ttgttgaagtggaaagccacttcgattattatcgtccggttgcagaaacc    550
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       551 aaaccgggtctgccgcaggatggtgcattttatggtctgggtgttcatac    600
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       601 catggatcagattattagcctgtttggtcgtcctgatcatgtggcctatg    650
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       651 atattcgtagcctgcgtaataaagcaaatccggatgatacctttgaagcc    700
+                                                                       
+alex2cr_T7ter    438 --------------------------------------------------    439
+
+alex2cf_T7       701 cagctgttttatggtgatctgaaagccattgttaaaa--cctcccatctg    748
+                        .|.||.|..|....|.|||||||.||||||||||  |.|||..|..|
+alex2cr_T7ter    438 ---tttttattngtgattttgaaagcnattgttaaaaaccttccnttnng    392
+
+alex2cf_T7       749 gtgaaaatc-gactatccgaaa-tttatcgtccatggcaaaaaaggcagc    796
+                     ||||||||. |.||||..|||| |||.|..|.|||||||||||||||||.
+alex2cr_T7ter    391 gtgaaaatnggnctataagaaattttttanttcatggcaaaaaaggcagt    342
+
+alex2cf_T7       797 ttcatcaaatatggcattgaccagcaagaaaccagcctgaaagcgaatat    846
+                     ||.||.|..||||||.||||||||||||||.||||||||||||.||||||
+alex2cr_T7ter    341 ttnatnatttatggctttgaccagcaagaatccagcctgaaagngaatat    292
+
+alex2cf_T7       847 tatgcctggtgaaccgggttttgcagccgatgatagcgttggtgttctgg    896
+                     |||||.||||||||||||||||||||.|||||||||.|||||||||||||
+alex2cr_T7ter    291 tatgcntggtgaaccgggttttgcagncgatgatagngttggtgttctgg    242
+
+alex2cf_T7       897 aatatgttaatgatgaaggtgttaccgtgcgcgaagaaatgaaaccggaa    946
+                     |||||||||||||||||||||||||||||||.||||||||||||||||||
+alex2cr_T7ter    241 aatatgttaatgatgaaggtgttaccgtgcgngaagaaatgaaaccggaa    192
+
+alex2cf_T7       947 atgggtgattatggtcgtgtttatgatgcactgtatcagaccattaccca    996
+                     |.|||||||||||||.|||||||||||||| ||||||||.||||||||||
+alex2cr_T7ter    191 angggtgattatggtngtgtttatgatgca-tgtatcagtccattaccca    143
+
+alex2cf_T7       997 tggtgcaccgaattatgtgaaagaangcgaagtgctgacnnncctggaaa   1046
+                     ||||||||||||||| ||||||||| ||||||||.||.|   |.......
+alex2cr_T7ter    142 tggtgcaccgaatta-gtgaaagaaagcgaagtgntgnccnncnnnnnnn     94
+
+alex2cf_T7      1047 ttctggaacgtggttttgaacaggcnncccnnn-----------------   1079
+                     |...||.............|.....  .|.                    
+alex2cr_T7ter     93 tgaaggtttacnncannnnangnnnnnnctnccgntnnacncncccnnnn     44
+
+alex2cf_T7      1080 -------------------------------------------   1079
+                                                                
+alex2cr_T7ter     43 nnnnnnnntntnannanngaannnnnnnnnnnnnnnnnnnnnn      1
+
+
+#---------------------------------------
+#
+# Conflicts:      alex2cf_T7  alex2cr_T7term
+#              position base   position base Using
+#                   704  'C'          1  't'   'C'
+#                   706  'G'          3  't'   'G'
+#                   709  'T'          6  'a'   'T'
+#                   711  'A'          8  't'   'A'
+#                   714  'G'         11  't'   'G'
+#                   715  'T'         12  'g'   'T'
+#                   716  'G'         13  'a'   'G'
+#                   717  'A'         14  't'   'A'
+#                   719  'C'         16  't'   'C'
+#                   738  '.'         35  'a'   '.'
+#                   738  '.'         36  'c'   '.'
+#                   739  'C'         38  't'   'C'
+#                   744  'A'         43  't'   'A'
+#                   758  '.'         57  'g'   '.'
+#                   764  'C'         64  'a'   'C'
+#                   765  'C'         65  'a'   'C'
+#                   770  '.'         70  't'   '.'
+#                   773  'A'         74  't'   'A'
+#                   775  'C'         76  'a'   'C'
+#                   778  'C'         79  't'   'C'
+#                   796  'C'         97  't'   'C'
+#                   804  'A'        105  't'   'A'
+#                   805  'A'        106  't'   'A'
+#                   812  'A'        113  't'   'A'
+#                   827  'A'        128  't'   'A'
+#                   977  'C'        278  '.'   'C'
+#                   986  'A'        286  't'   'A'
+#                  1012  'T'        312  '.'   'T'
+#                  1048  'T'        347  'g'   'T'
+#                  1049  'C'        348  'a'   'C'
+#                  1050  'T'        349  'a'   'T'
+#                  1053  'A'        352  't'   'A'
+#                  1054  'A'        353  't'   'A'
+#                  1055  'C'        354  't'   'C'
+#                  1056  'G'        355  'a'   'G'
+#                  1057  'T'        356  'c'   'T'
+#                  1060  'T'        359  'c'   'T'
+#                  1061  'T'        360  'a'   'T'
+#                  1068  'A'        367  'g'   'A'
+#                  1076  'c'        375  'T'   'T'
+# 
+#
+#---------------------------------------
