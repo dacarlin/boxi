@@ -11,5 +11,5 @@ s=$( awk 'NR=="'${SGE_TASK_ID}'" { print $1 }' list/match_in.txt )
 i=$( awk 'NR=="'${SGE_TASK_ID}'" { print $2 }' list/match_in.txt )
 j=$( awk 'NR=="'${SGE_TASK_ID}'" { print $3 }' list/match_in.txt )
 
-match.linuxgccrelease @ flags/$s.flags @ flags/${i}_${j}.flags
+match.linuxgccrelease @ flags/match.flags @ flags/$s.flags @ flags/${i}_${j}.flags
 mv UM* out/secondary/
