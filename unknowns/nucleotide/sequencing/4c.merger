@@ -1,0 +1,43 @@
+########################################
+# Program: merger
+# Rundate: Thu  1 Oct 2015 11:37:40
+# Commandline: merger
+#    -asequence alex4cf_T7_Plate_Plate01_B11.seq
+#    -bsequence alex4cr_T7term_Plate_Plate01_B12.seq
+#    -sreverse2
+#    -outfile 4c.merger
+#    -outseq 4c.fasta
+# Align_format: simple
+# Report_file: 4c.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: alex4cf_T7
+# 2: alex4cr_T7term
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 9
+# Identity:       1/9 (11.1%)
+# Similarity:     0/9 ( 0.0%)
+# Gaps:           8/9 (88.9%)
+# Score: -1.0
+# 
+#
+#=======================================
+
+alex4cf_T7         1 nnnnn----      5
+                              
+alex4cr_T7ter      5 ----nnnnn      1
+
+
+#---------------------------------------
+#
+# Conflicts:      alex4cf_T7  alex4cr_T7term
+#              position base   position base Using
+# 
+#
+#---------------------------------------
