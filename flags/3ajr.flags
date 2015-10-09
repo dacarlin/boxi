@@ -1,0 +1,3 @@
+-in:file:s pdb/3ajr.pdb
+-extra_res_fa params/cofactor/3ajr.params
+-match:scaffold_active_site_residues pos/3ajr.pos

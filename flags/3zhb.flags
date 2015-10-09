@@ -1,0 +1,3 @@
+-in:file:s pdb/3zhb.pdb
+-extra_res_fa params/cofactor/3zhb.params
+-match:scaffold_active_site_residues pos/3zhb.pos

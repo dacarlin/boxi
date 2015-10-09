@@ -1,4 +1,4 @@
--parser::protocol enzdes.xml
+-parser::protocol /home/carlin/boxi/scripts/enzdes.xml
 -nstruct 9 
 
 -packing::ex1

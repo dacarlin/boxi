@@ -1,0 +1,3 @@
+-in:file:s pdb/1kol.pdb
+-extra_res_fa params/cofactor/1kol.params
+-match:scaffold_active_site_residues pos/1kol.pos

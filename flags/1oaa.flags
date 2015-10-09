@@ -1,0 +1,3 @@
+-in:file:s pdb/1oaa.pdb
+-extra_res_fa params/cofactor/1oaa.params
+-match:scaffold_active_site_residues pos/1oaa.pos

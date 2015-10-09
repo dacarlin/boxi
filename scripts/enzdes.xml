@@ -1,7 +1,7 @@
 <ROSETTASCRIPTS>
 
 <SCOREFXNS>
-  <myscore weights=talaris2014_cst.wts/>
+  <myscore weights=talaris2013_cst.wts/>
 </SCOREFXNS>
 
 <TASKOPERATIONS>
