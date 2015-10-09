@@ -2,6 +2,7 @@
 #$ -e /home/carlin/boxi/logs/
 #$ -o /home/carlin/boxi/logs/
 #$ -N match
+#$ -l h_vmem=12G
 
 export ROSETTA3_DB=/share/tmp-data-1/siegellab/Rosetta/main/database/
 export PATH=/share/tmp-data-1/siegellab/Rosetta/main/source/bin/:$PATH

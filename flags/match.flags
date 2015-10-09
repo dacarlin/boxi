@@ -1,8 +1,10 @@
 -ex1 
 -ex2 
+-ex3
 -ex1aro 
 -ex2aro 
 -output_format PDB 
 -consolidate_matches 1 
 -match_grouper SameSequenceGrouper 
 -output_matches_per_group 1 
+-mute protocols.idealize
