@@ -1,2 +1,2 @@
-# *De novo* design of an ethylene oxide reductase 
+# *De novo* design of an oxirane reductase 
 
