@@ -1,0 +1,14 @@
+version=581
+alphabet=ACDEFGHIKLMNPQRSTVWY
+numofsequences=21
+numofletters=5922
+letterfreqs=739 42 425 274 127 651 172 210 122 670 150 210 189 218 296 253 412 608 27 127
+maxunsortedinterval=0
+keeplowercase=0
+tantansetting=1
+masklowercase=1
+numofindexes=1
+totallength=5944
+specialcharacters=91
+prefixlength=2
+subsetseed=A C D E F G H I K L M N P Q R S T V W Y

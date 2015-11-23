@@ -1,0 +1,21 @@
+# LAST version 581
+#
+# a=7 b=1 A=7 B=1 e=19 d=10 x=18 y=9 z=18 D=1e+06 E=5.47046e+08
+# R=10 u=0 s=2 T=0 m=10 l=1 n=10 k=1 i=8192 w=1000 t=0.910239 g=1 j=3 Q=0
+# 3jyo
+# Reference sequences=1 normal letters=914
+# lambda=1.09602 K=0.335388
+#
+#    A  C  G  T
+# A  1 -1 -1 -1
+# C -1  1 -1 -1
+# G -1 -1  1 -1
+# T -1 -1 -1  1
+#
+# Coordinates are 0-based.  For - strand matches, coordinates
+# in the reverse complement of the 2nd sequence are used.
+#
+# name start alnSize strand seqSize alignment
+#
+# batch 0
+# Query sequences=21
