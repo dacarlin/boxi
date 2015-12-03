@@ -1,0 +1,33 @@
+1oaa dyads sequencing picks 20151202
+
+a100f+v105a+y168a+k172y                      B6
+
+a100s+l102h+v105a+y168a+k172y                G5
+
+a100s+l102k+v105a+y168a+k172y                C1
+
+a100s+y168a+k172y                            A5
+
+a100y+l102k+v105a+y168a+k172y                B3
+
+l102a+c157s+y168h+k172s+m203w                F4
+
+l102a+c157s+y168h+m203w                      A4
+
+l102a+c157w+y168h+m203w                      F1
+
+l102a+s155q+y168h+m203w                      C7
+
+l102a+v105h+s155a+y168h+a195c+m203w          E6
+
+l102a+v105h+s155a+y168h+a195c+m203w+a207m    D3
+
+l102a+v105h+s155a+y168h+m203w                C2
+
+l102a+v105h+s155q+y168h+m203w                G3
+
+l102a+y168h+m203w                            A8
+
+l102g+v105g+y168a+k172y+n201d+q204a+a207h    G2
+
+y168a+k172y+n201d+q204a                      C5
